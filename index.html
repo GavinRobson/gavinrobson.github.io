@@ -5,12 +5,121 @@
     <meta name="viewport" content="width=device-width" />
     <title>Gavin Robson</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="assets/GavinWebsiteHero.png" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="p-4 bg-bray-500">
-   <div class="bg-red-500 p-6">
-    Hello!
-   </div>  
+  <body class="py-12 bg-gray-900">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-2">
+        <div class="grid-element items-center">
+          <img
+            src="assets/GavinWebsiteLogo.png"
+            alt="Hero"
+            width="150"
+            height="150"
+          />
+          <h1>Gavin Robson</h1>
+          <p>Phoenix, MD</p>
+          <div class="flex flex-row space-x-2">
+            <a
+              href="https://github.com/GavinRobson"
+              target="_blank"
+              class="link-element"
+            >
+              <i
+                class="fa-brands fa-github hover:opacity-70 transition-all"
+              ></i>
+            </a>
+            <a href="https://www.youtube.com/@ImSoBored_" target="_blank">
+              <i
+                class="fa-brands fa-youtube hover:opacity-70 transition-all"
+              ></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gavinrobson/" target="_blank">
+              <i
+                class="fa-brands fa-linkedin hover:opacity-70 transition-all"
+              ></i>
+            </a>
+            <a href="mailto:gavin.t.robson@outlook.com" target="_blank">
+              <i class="fas fa-envelope hover:opacity-70 transition-all"></i>
+            </a>
+          </div>
+        </div>
+        <div class="grid-element">
+          <div class="flex flex-col justify-start space-y-4">
+            <div class="flex flex-col space-y-1">
+              <h1>About Me</h1>
+              <p class="wrap">
+                I am a Senior at Towson University studying Computer Science
+                with an interest in web development. I have developed a few
+                websites in
+                <a
+                  href="https://nextjs.org"
+                  target="_blank"
+                  class="hover:opacity-70 underline transition-all cursor-pointer"
+                  >NextJS</a
+                >
+                (linked below). My love for video games has inspired me to
+                create these websites and initially sparked my interest in
+                Computer Science.
+              </p>
+            </div>
+            <div class="flex flex-col space-y-1">
+              <h1>Projects</h1>
+              <p class="flex flex-row space-x-2 items-center">
+                <i class="fas fa-globe"></i>
+                <a
+                  href="https://cases.valomind.com"
+                  target="_blank"
+                  class="underline hover:opacity-70 transition-all cursor-pointer"
+                  >Case Club</a
+                >
+              </p>
+              <p class="flex flex-row space-x-2 items-center">
+                <i class="fas fa-globe"></i>
+                <a
+                  href="https://valorant.valomind.com"
+                  target="_blank"
+                  class="underline hover:opacity-70 transition-all cursor-pointer"
+                  >Valomind</a
+                >
+                (broken)
+              </p>
+              <p class="flex flex-row space-x-2 items-center">
+                <i class="fas fa-globe"></i>
+                <a
+                  href="https://gavinrobson.com"
+                  target="_blank"
+                  class="underline hover:opacity-70 transition-all cursor-pointer"
+                  >Main Page</a
+                >
+              </p>
+            </div>
+            <div class="flex flex-col space-y-1">
+              <h1>Info</h1>
+              <p class="flex flex-row space-x-2 items-center"> <i class="fas fa-file"></i>
+                <a
+                  class="underline hover:opacity-70 transition-all cursor-pointer"
+                  href="assets/GavinRobsonResume.pdf"
+                  target="_blank"
+                  >Resume</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
