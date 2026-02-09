@@ -14,7 +14,7 @@ p {
 
 .grid-element {
   display: flex;  
-  padding: 64px;
+  padding: 48px;
   justify-content:center;
   flex-direction: column;
   font-size: 28px
